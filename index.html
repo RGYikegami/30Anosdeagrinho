@@ -1,1 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoAgro30 - Equilíbrio entre Produção e Meio Ambiente</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>EcoAgro30</h1>
+        <p>Calculadora de Balanço de Carbono e Sustentabilidade Agrícola</p>
+        <span class="badge-30">30 Anos do Programa Agrinho</span>
+    </header>
+
+    <main>
+        
+        <section id="contexto">
+            <h2>Cultivando um Futuro Sustentável</h2>
+            <p>
+                Em comemoração às três décadas do Agrinho, este utilitário interativo ajuda produtores 
+                a mensurar o equilíbrio entre a produtividade agrícola e o impacto ambiental, promovendo 
+                a transição ecológica e a saúde do ecossistema rural.
+            </p>
+        </section>
+
+        <section id="calculadora">
+            <h2>Simulador de Impacto e Balanço Ecológico</h2>
+            <p>Insira os dados da sua propriedade agrícola para calcular o balanço de sustentabilidade:</p>
+            
+            <form id="form-sustentavel" onsubmit="return false;">
+                
+                <article class="campo-input">
+                    <label for="area-plantio">Área Total de Plantio (em hectares):</label>
+                    <input type="number" id="area-plantio" placeholder="Ex: 50" required>
+                </article>
+
+                <article class="campo-input">
+                    <label for="area-preservacao">Área de Preservação/Reserva Legal (em hectares):</label>
+                    <input type="number" id="area-preservacao" placeholder="Ex: 15" required>
+                </article>
+
+                <article class="campo-input">
+                    <label for="uso-fertilizantes">Uso de Fertilizantes Nitrogenados (em kg/ano):</label>
+                    <input type="number" id="uso-fertilizantes" placeholder="Ex: 200" required>
+                </article>
+
+                <button type="button" id="btn-calcular">Calcular Índice de Sustentabilidade</button>
+            </form>
+        </section>
+
+        <section id="container-resposta" aria-live="polite">
+            <div id="mensagem-tela" class="escondido"></div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 EcoAgro30. Desenvolvido para o Concurso Agrinho - Categoria Programação.</p>
+        <p>Rede Estadual de Ensino do Paraná &amp; Sistema FAEP/SENAR-PR.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
 
