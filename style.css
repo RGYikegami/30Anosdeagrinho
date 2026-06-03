@@ -1,1 +1,12 @@
-
+/* ==========================================================================
+   1. VARIÁVEIS DE AMBIENTE (:root) - PALETA AGRO/SUSTENTABILIDADE
+   ========================================================================== */
+:root {
+    /* Cores Principais (Alto Contraste e Harmonia Visual) */
+    --cor-primaria: #1b4332;       /* Verde Floresta Escuro (Fundo de Destaques e Textos Principais) */
+    --cor-secundaria: #40916c;     /* Verde Broto/Intermediário (Elementos de Ação e Bordas) */
+    --cor-acento: #d8f3dc;         /* Verde Claro/Menta (Fundo de Cartões e Contrastes de Leitura) */
+    
+    /* Cores Neutras de Suporte */
+    --cor-fundo-geral: #f4f9f4;    /* Branco Off-White com tom sutil de verde (Conforto Visual) */
+    --cor-texto-escuro: #081c15;   /* Grafite Quase Preto (Excelente contraste sobre
